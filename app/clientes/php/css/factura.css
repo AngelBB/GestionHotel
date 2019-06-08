@@ -1,0 +1,49 @@
+header{
+	width:100%;
+	height:100px;
+	background-color:#D1E5DD;
+	font-family: 'Montez', cursive;
+	border-bottom:3px solid #BACBC4; 
+}
+.logo{
+	margin:0 auto;
+	width:70px;
+	height:70px;
+	display:block;
+}
+
+body{
+	margin:0px;
+	height: 100%;
+	background-color:#DDF2E9;
+}
+#contenedor{
+	font-family: 'Alegreya', 'serif';
+}
+
+
+#factura_aloj,#factura_rest,#factura_spa{
+	text-align:center;
+	border-collapse: separate;
+	border-spacing:  0px;
+	border: 1px solid #000;
+}
+
+#factura_aloj th , #factura_rest th  ,#factura_spa th {
+  border: 1px solid gray;
+  background-color:#D1E5DD;
+}
+
+#factura_aloj td , #factura_rest td  ,#factura_spa td {
+  border: 1px solid gray;
+}
+
+#imprimir{
+	margin:0 auto;
+	display:block;
+}
+
+#cif{
+	float:right;
+	font-family: 'Alegreya', 'serif';
+}

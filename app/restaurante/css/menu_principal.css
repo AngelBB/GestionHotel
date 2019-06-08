@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+#botonAtras{
+	z-index: 20;
+	margin-right: 30px;
+	position: fixed;
+	top: 3%;
+	left: 3%;
+}
+
+#icono{
+	height:50px;
+	width:50px;
+}
+.cerrar_sesion{
+	width: 50px;
+	height: 50px;
+	z-index: 20;
+	margin-right: 30px;
+	position: fixed;
+	top: 3%;
+	right: 1%;
+}
+
+header{
+	width:100%;
+	height:100px;
+	background-color:#2A67B4;
+	font-family: 'Montez', cursive;
+	border-bottom:3px solid #FFF991; 
+}
+.logo{
+	margin:0 auto;
+	width:70px;
+	height:70px;
+	display:block;
+}
+
+body{
+	background-color:#009BDE;
+	font-family: 'Alegreya', 'serif';
+	margin:0px;
+	height: 100%;
+}
+
+
+#menu_pricipal{
+	height: 200px;
+    width: 250px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-100px;
+	margin-top:-125px;
+}
+
+#editar_platos{
+	float:left;
+	background-color:#FFE077;
+	border-radius:15px;
+}
+
+
+#consumo{
+	float:right;
+	background-color:#FFE077;
+	border-radius:15px;
+}
+
+.icono{
+	width:80px;
+	height:80px;
+}
+
+.cerrar_sesion{
+	width: 50px;
+	float:right;
+	height:50px;
+}
+
+
+h2{
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:15px;
+width: 167px;
+}
+
+
+footer {
+   position:fixed;
+   left:0;
+   bottom:0;
+   height:80px;
+   width:100%;
+   background-color:#2A67B4;
+   border-top: 3px solid #FFF991;
+}
+#contenido_footer{
+	width:110px;
+	margin: 0 auto;
+	margin-top:30px;
+	
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<html lang="es" xml:lang="es">
+	<head>
+		<title>Hotel el Partal</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necesario para bootstrap y los plugins de javascript) -->
+		 <script src="js/jquery.min.js"></script>
+		 <!---- para el smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript" src="js/image_shape.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- Estilos -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+   		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----Fuentes personalizadas---->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300,700' rel='stylesheet' type='text/css'>
+		
+		<!----boton top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+	</head>
+	<body>
+		<!-----container---->
+			<div class="bg">
+				<div class="container">
+				<div class="header">
+					<div class="contact-no">
+						<span>958 57 36 49</span>
+					</div>
+					<div class="logo">
+						<a href="#"><img src="images/icono.png" title="Hotel el Partal" /></a>
+					</div>
+					<div class="contact-order">
+						<a href="login.html">Acceso</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+					<!----top-nav---->
+				 <nav class="top-nav">
+					<ul class="top-nav">
+						<li class="active"><a href="#home" class="scroll">Inicio</a></li>
+						<li class="page-scroll"><a href="#about" class="scroll">Sobre nosotros</a></li>
+						<li class="page-scroll"><a href="#gal" class="scroll">Galeria</a></li>
+						<li class="page-scroll"><a href="#hab" class="scroll">Habitaciones</a></li>
+						<li class="page-scroll"><a href="#con" class="scroll">Restaurante</a></li>
+						<li class="page-scroll"><a href="#contact" class="scroll">Contacto</a></li>
+					</ul>
+					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu"/></a>
+				</nav>
+			</div>
+		</div>
+		<!-----start-about---->
+		<div id="about" class="about">
+			<div class="container">
+				<div class="col-md-5 about-left">
+					<p>Hotel el <span>Partal</span></p>
+				</div>
+				<div class="col-md-7 about-right">
+					<h3>Mas de 50 años de experiencia</h3>
+					<p>Fundado hace mas de 500 años a los pies de la Alhambra este edificio emblemático ha servido de posada desde sus inicios hasta hoy en dia. En el que te sentirás como en casa.</p>
+					<ul class="list-unstyled list-inline">
+						<li>1.  Ubicado en el pleno centro historico de Granada</li></br>
+						<li>2.  Servicio propio de restauración</li></br>
+						<li>3.  Balneario</li></br>
+						<li>4.  Terraza con piscina</li></br>
+						<li>5.  Parking para clientes</li>
+					</ul>
+					<span>¡ Visitanos a que esperas !<br /> Garantia de calidad - 100%</span>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-----//End-about---->
+		<!----start-gallery---->
+		<div id="gal" class="gallery">
+			<div class="container">
+				<div class="head">
+					<h3>Galeria<span> </span></h3>
+				</div>
+				<div class="gallery-grids">
+					<div class="gallery-grids-row1">
+						<div class="col-md-8 gallery-grid1">
+							<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								<img class="port-pic" src="images/g1.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<span>Terraza Lounge</span>
+										<button>Ver imagen</button>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 gallery-grid1">
+							<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								<img class="port-pic" src="images/g2.jpg" style="height: 307px;"/>
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<span>Terraza lounge</span>
+										<button>Ver imagen</button>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="clearfix"> </div>
+						<p class="place">Terraza lounge</p>
+					</div>
+					<div class="gallery-grids-row1">
+						<div class="col-md-6 gallery-grid1">
+							<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								<img class="port-pic" src="images/g3.jpg" style="height: 307px;"/>
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<span>Balneario</span>
+										<button>Ver imagen</button>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 gallery-grid1">
+							<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								<img class="port-pic" src="images/g4.jpg" style="height: 307px;" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<span>Balneario</span>
+										<button>Ver imagen</button>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="clearfix"> </div>
+						<p class="place">Balneario</p>
+					</div>
+					<!----->
+					<div class="gallery-grids-row1">
+						<div class="col-md-4 gallery-grid1">
+							<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								<img class="port-pic" src="images/g22.jpg" style="height: 307px;" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<span>Patio interior</span>
+										<button>Ver imagen</button>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-8 gallery-grid1">
+							<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								<img class="port-pic" src="images/g44.jpg" style="height: 307px;" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<span>Pasillo</span>
+										<button>Ver imagen</button>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="clearfix"> </div>
+						<p class="place">Interiores</p>
+					</div>
+				</div>
+				<!--<a class="view-gallery-btn" href="#">View all</a>-->
+			</div>
+		</div>
+		<!----//End-gallery---->
+		<!----imagenenes habitaciones---->
+		<div id="hab" class="testmonials">
+			<div class="container">
+				<div class="head c-head">
+					<h3>Habitaciones<span> </span></h3>
+				</div>
+				<!----start-testmonials-grids----->
+				<div class="testmonials-grids text-center">
+					<div class="col-md-3 testmonial-grid">
+						<a href="#"><img class="img-circle" src="images/h1.jpg" title="name" /></a>
+						<h5><a href="#">Habitación individual</a></h5>
+						<span>Funcional</span>
+						<p>¿ Viajes de negocios o simplemente aventurer@ ? Esta habitación te vendrá de maravilla.</p>
+					</div>
+					<div class="col-md-3 testmonial-grid">
+						<a href="#"><img class="img-circle" src="images/h2.jpg" title="name" /></a>
+						<h5><a href="#">Habitación doble</a></h5>
+						<span>Espaciosa</span>
+						<p>Una habitación ideal para cualquier tipo de viajeros y preparada para adaptarse a tus necesidades.</p>
+					</div>
+					<div class="col-md-3 testmonial-grid">
+						<a href="#"><img class="img-circle" src="images/h3.jpg" title="name" /></a>
+						<h5><a href="#">Suite Deluxe</a></h5>
+						<span>Completa</span>
+						<p>Esta maravillosa suite esta totalmente equipada, ¡ lo tiene todo !</p>
+					</div>
+					<div class="col-md-3 testmonial-grid">
+						<a href="#"><img class="img-circle" src="images/h4.jpeg" title="name" /></a>
+						<h5><a href="#">Suite Royal</a></h5>
+						<span>Magnífica</span>
+						<p>Solo para los mas selectos, cuando la veas no te querrás marchar. Simplemente ... ¡ la Suite de tus sueños !</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!----//End-testmonials-grids----->
+			</div>
+		</div>
+		<!----//End-testmonials---->
+		<!----start-consulation----->
+		<div id="con" class="consulation">
+			<div class="container">
+				<div class="head c-head">
+					<h3>Restaurante<span></span></h3>
+				</div>
+				<div class="consulation-grids">
+					<div class="col-md-7 consulation-left">
+						<h4>¿ Tienes hambre ?</h4>
+						<p>En nuestro restaurante disfrutarás los mejores platos de nuestra tierra de una forma inovadora pero sin perder la esencia de lo auténtico.</p>
+						<p>Además podrás degustar nuestra variada carta de tapas y vinos de bodega propia.</p>
+					</div>
+					<div class="col-md-5 consulation-right">
+						<img class="port-pic" src="images/tapas.jpg" title="name" />
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!----//End-consulation----->
+		
+		<!----start-contact---->
+		<div id="contact" class="contact">
+			<div class="container">
+				<div class="head">
+					<h3>Contacto <span></span></h3>
+				</div>
+				<div class="contact-grids">
+					<div class="col-md-6 contact-left">
+						<a href="#">elpartal@granada.es</a><br />
+						<p>958 57 36 49</p>
+						<p>958 83 84 85</p><br />
+						<p><label>Calle Horno de Oro</label><label>Nº 5</label><label>Granada, 18010</label> </p>
+					</div>
+					<div class="col-md-6 contact-right">
+								<form>
+									<input type="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}">
+									<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+									<textarea onfocus="if(this.value == 'Message ') this.value='';" onblur="if(this.value == '') this.value='Mensage *;">Mensage</textarea>
+									<input type="submit" value="Escribenos" />
+								</form>	
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!----//End-contact---->
+		<!----start-footer---->
+		<div class="footer text-center">
+			<div class="container">
+				<a href="#"> <img src="images/icono.png" title="logo hotel el partal" /></a>
+				<script type="text/javascript">
+				$(document).ready(function() {
+					/*
+					var defaults = {
+			  			containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+			 		};
+					*/
+					
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					
+				});
+			</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+		</div>
+		<!----//End-footer---->
+		<!-----//End-container---->
+	</body>
+</html>
+

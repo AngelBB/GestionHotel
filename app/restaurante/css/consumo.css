@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+#botonAtras{
+	z-index: 20;
+	margin-right: 30px;
+	position: fixed;
+	top: 3%;
+	left: 3%;
+}
+
+#icono{
+	height:50px;
+	width:50px;
+}
+
+header{
+	width:100%;
+	height:100px;
+	background-color:#2A67B4;
+	font-family: 'Montez', cursive;
+	border-bottom:3px solid #FFF991; 
+}
+
+.logo{
+	margin:0 auto;
+	width:70px;
+	height:70px;
+	display:block;
+}
+
+.cerrar_sesion{
+	width: 50px;
+	height: 50px;
+	z-index: 20;
+	margin-right: 30px;
+	position: fixed;
+	top: 3%;
+	right: 1%;
+}
+
+
+body{
+	background-color:#009BDE;
+	font-family: 'Alegreya', 'serif';
+	margin:0px;
+	height: 100%;
+}
+
+input,textarea,select{
+	font-size:18px;
+    outline:none;
+    transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    border-radius:10px;
+    -webkit-border-radius:13px;
+    -moz-border-radius:13px;
+    border:1px solid rgba(0,0,0, 0.2);
+    color:gray;
+    background-color:#EEEEEE;
+    padding: 6px;
+	display:block;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+
+input:focus,textarea:focus {
+   box-shadow: 0 0 10px #aaa;
+   -webkit-box-shadow: 0 0 10px #aaa;
+   -moz-box-shadow: 0 0 10px #aaa;
+   border:1px solid #999;
+   background-color:white;
+}
+
+
+#contenedor{
+	width: 250px;
+	height:162px;	
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-125px;
+	margin-top:-81px;
+}
+
+
+#resultado_bueno{
+	display:none;
+	background-color:#9DFFA3;
+	border-color:#9CE872;
+	border-width:1px;
+	border-radius:3px;
+	width:150px;
+}
+
+#resultado_malo{
+	display:none;
+	background-color:#FF8F6E;
+	border-color:#E86559;
+	border-width:1px;
+	border-radius:3px;
+	width:150px;
+}
+
+
+#informacion{
+	color:#D6E5CE;
+	font-size:18px;
+}
+
+#enviar{
+	background-color:#C0D7E1;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;
+	border:none;
+	 box-shadow: 0 0 10px #aaa;
+   -webkit-box-shadow: 0 0 10px #aaa;
+   -moz-box-shadow: 0 0 10px #aaa;
+   border:1px solid #999;
+    border-radius:10px;
+   margin:auto;
+   font-size:16px;
+    margin-left: 64px;
+
+}
+
+
+
+footer {
+   position:fixed;
+   left:0;
+   bottom:0;
+   height:80px;
+   width:100%;
+   background-color:#2A67B4;
+   border-top: 3px solid #FFF991;
+}
+#contenido_footer{
+	width:110px;
+	margin: 0 auto;
+	margin-top:30px;
+}

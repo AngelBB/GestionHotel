@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+header{
+	width:100%;
+	height:100px;
+	background-color:#D7BB88;
+	font-family: 'Montez', cursive;
+	border-bottom:3px solid #B19A70; 
+}
+.logo{
+	margin:0 auto;
+	width:70px;
+	height:70px;
+	display:block;
+}
+
+/* CSS Document */
+#botonAtras{
+	z-index: 20;
+	margin-right: 30px;
+	position: fixed;
+	top: 3%;
+	left: 3%;
+}
+
+#icono{
+	height:50px;
+	width:50px;
+}
+
+.cerrar_sesion{
+	width: 50px;
+	height: 50px;
+	z-index: 20;
+	margin-right: 30px;
+	position: fixed;
+	top: 3%;
+	right: 1%;
+}
+
+
+#footer{
+	width: 100%;
+	height: 110px;
+	margin: -110px auto 0;
+	background-color:#D7BB88;
+	border-top:3px solid #B19A70; 
+}
+
+
+html,body{
+	height: 100%;
+}
+
+#contenedor{
+	margin:0 auto;
+	width:100%;	
+	height: auto;
+	min-height:100%;
+}
+#contenedor:after{
+	width: 100%;
+	height:150px;
+	display:block;
+	clear:both;
+}
+
+body{
+	background-color:#f1d198;
+	font-family: 'Alegreya', 'serif';
+	margin:0px;
+}
+
+button{
+	background-color:#C0D7E1;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;
+	border:none;
+	border:1px solid #999;
+    border-radius:10px;
+   	margin:auto;
+   	font-size:16px;
+}
+button:hover{
+	box-shadow: 0 0 10px #aaa;
+   -webkit-box-shadow: 0 0 10px #aaa;
+   -moz-box-shadow: 0 0 10px #aaa;
+   -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+	}
+
+input,textarea,select{
+	font-size:18px;
+    outline:none;
+    transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    border-radius:10px;
+    -webkit-border-radius:13px;
+    -moz-border-radius:13px;
+    border:1px solid rgba(0,0,0, 0.2);
+    color:gray;
+    background-color:#EEEEEE;
+    padding: 6px;
+	display:block;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+
+input:focus,textarea:focus{
+   box-shadow: 0 0 10px #aaa;
+   -webkit-box-shadow: 0 0 10px #aaa;
+   -moz-box-shadow: 0 0 10px #aaa;
+   border:1px solid #999;
+   background-color:white;
+}
+
+#parametros{
+	width:250px;
+	margin-left:50px;
+	height: 680px;
+	float:left;
+	display:inline;
+}
+	
+#resultado{
+	width:1300px;
+	float:right;
+	height:800px;
+	display:inline;
+	overflow-x: auto;
+}
+
+#res{
+	color: #CCC;
+	margin: auto;
+	font-size:36px;
+    width: 142px;
+	position:relative;
+	top:45%;
+}
+
+#enviar{
+	margin-left:50px;
+	margin-top:25px;
+}
+
+.tabla_resultado{
+	text-align:center;
+}
+
+/*footer {
+   position:fixed;
+   left:0;
+   bottom:0;
+   height:80px;
+   width:100%;
+   background-color:#D7BB88;
+   border-top:3px solid #B19A70; 
+}*/
+#contenido_footer{
+	width:110px;
+	margin: 0 auto;
+	margin-top:30px;
+}
